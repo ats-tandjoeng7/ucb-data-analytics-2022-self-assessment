@@ -1,0 +1,62 @@
+/* UCB-VIRT-DATA-ANALYTICS-2022, Parto Tandjoeng */
+
+/*ivory:#fffff7, orange:#ffa500, honeydew:#f0fff0, rebeccapurple:#663399, indigo:#4b0082 */
+body {
+  color: black;
+  background-color: #fffff7;
+  margin: auto;
+  padding: 1%;
+  display: block;
+  position: relative;
+  overflow-y: scroll;
+}
+
+h1, h2, h3 {color:black; font-family:"Brush Script MT", cursive; text-align:center}
+#preamble {color:black; font-family:"Brush Script MT", cursive}
+p {color:black; text-indent:1.2%; font-family:'arial'; font-size:14px}
+li {color:navy; font-family:'arial'; font-size:14px; font-weight:bold}
+
+/* font-size: 0.1vw or 0.1vh is about 1px */
+hr {
+  border: 0.1vw solid #663399;
+}
+
+a[href^="#top"] {
+  font-size: 4.5vmin;
+  font-weight: 700;
+  text-align: center;
+  /* background: #ffa500; */
+  color: #ffa500;
+}
+
+h1[id^="ffFan"] {
+  font-family: 'Fantasy', 'serif';
+  color: #4b0082;
+  font-size: 6vw;
+}
+
+[id^="fsFan"] {
+  font-family: 'Fantasy', 'serif';
+  color: #4b0082;
+  font-size: 2.5vmin;
+}
+
+.fs2x {
+  font-size: 2.9vmin;
+}
+
+.fs1x {
+  font-size: 1.8vmin;
+  padding-top: 0.5%;
+}
+
+.fs1Rem {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#footer {
+  font-family: inherit;
+  font-size: 10px;
+  text-align: center;
+}
