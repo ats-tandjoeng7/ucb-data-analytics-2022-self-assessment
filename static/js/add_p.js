@@ -34,7 +34,7 @@ const wins = [
 "<em>Finally</em>, besides our team project's repo, representative GitHub repos created by using different software and technologies throughout the final module assignment that I am proud of today are as below. Although I always took time to research more and strive to grasp the concept and deliver refactored code in a well-documented repo, I am sure that I am on the right track to further evolve from here. Thank you!"
 ];
 // add paragraph(s) to html <div> tag
-addP(goals, Object.keys({goals}));
+// addP(goals, Object.keys({goals}));
 addP(roles, Object.keys({roles}));
 addP(sums, Object.keys({sums}));
 addP(wins, Object.keys({wins}));
